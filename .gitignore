@@ -1,0 +1,27 @@
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment files and credentials. Keep example templates shareable.
+.env
+.env.*
+!.env.example
+!.env.*.example
+.secrets/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Local databases, logs, and generated build output.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.log
+dist/
